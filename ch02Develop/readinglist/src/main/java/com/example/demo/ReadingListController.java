@@ -30,7 +30,7 @@ public class ReadingListController {
         if (readingList != null) {
             model.addAttribute("books", readingList);
         }
-        return "readingList";
+        return "readingList"; // 视图文件名
     }
 
     // 处理/{reader}上的HTTP POST 请求，将请求正文里的数据绑定到一个 Book 对象上。
