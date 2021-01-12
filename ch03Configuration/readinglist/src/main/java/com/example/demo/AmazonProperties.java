@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties("amazon")
+@ConfigurationProperties("amazon") // application.properties amazon.associateId=Jueee
 public class AmazonProperties {
 
     private String associateId;
